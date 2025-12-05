@@ -1,0 +1,41 @@
+body {
+    background: rgb(32,32,32);
+}
+
+#label {
+    font-family: consolas;
+    animation: colorAnimation 5s infinite
+}
+
+#label2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#file {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: outset;
+    border-radius: 7px;
+    color: white;
+    background-color: gray;
+}
+
+#data {
+    background-color: rgb(30,30,30);
+    color: white;
+    font-family: consolas;
+}
+
+@keyframes colorAnimation {
+    0% {
+        color: black;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: black;
+    }
+}
